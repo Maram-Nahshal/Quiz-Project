@@ -1,0 +1,98 @@
+body{
+	padding: 0;
+	margin: 0;
+	width:100vw;
+	height: 100vh;
+    background-color: rgb(252, 213, 161); /*change the background color*/
+}
+.panel{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.question-container{
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 10vh;
+	background-color: #090900; /*change the background color*/
+    color: rgb(220, 231, 174); /*change the text color*/
+    font-family: Georgia, 'Times New Roman', Times, serif; /*change the font*/
+	font-size: x-large;
+	text-align: center;
+	
+}
+.result{
+	margin: 10px;
+	padding: 5px;
+	width:80vw;
+	height: 10vh;
+	text-align: center;
+	font-size: 50px;
+	
+}
+.option-container{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 20vh;
+	background-color: #000a0b; /*change the background color*/
+	
+}
+.option{
+	padding: 10px;
+	width: 15vw;
+	height: 10vh;
+	font-size: larger;
+	background-color: rgb(155, 196, 220); /*change the background color*/
+    color: rgb(85, 85, 59); /*change the text color*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*change the font*/
+	border-radius: 25%;
+}
+.option:hover{
+	background-color: rgb(86, 124, 97); /*change the hover background color*/
+}
+.navigation{
+	width: 80vw;
+	height: 10vh;
+	margin: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	background-color:#000809; /*change the background color*/
+}
+
+.evaluate,.next{
+	width:30vw;
+	height: 8vh;
+	padding: 5px;
+	font-size: larger;
+}
+.evaluate{
+    color: white; /*change the text color*/
+	background-color: #bf8bec; /*change the button color*/
+    text-shadow: #937af6;
+}
+.evaluate:hover{ /*add a hover to the evaluate button*/
+	background-color: rgb(86, 124, 97); /*change the hover background color*/
+}
+
+.next{
+	color: white;/*change the text color*/
+	background-color: #ed92e2; /*change the button color*/
+}
+.next:hover{ /*add a hover to the next button*/
+	background-color: rgb(86, 124, 97); /*change the hover background color*/
+}
+
+
+
+
+
+
+
+
